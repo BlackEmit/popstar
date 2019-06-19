@@ -1,0 +1,143 @@
+* {
+    font-family: 'Arial', sans-serif;
+    border-collapse: collapse;
+}
+
+.main {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* -------------- HEADER -------------- */ 
+
+.header {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid #000;
+    position: relative;
+    height: 130px;
+}
+
+.header > .circle {
+    position: absolute;
+    z-index: 1;
+    top: 45px;
+    background: #fff;
+    margin-left: 20px;
+}
+
+.header h1 {
+    font-size: 60px;
+    margin-left: 150px;
+    position: absolute;
+    bottom: -54px;
+    letter-spacing: 6px;
+    color: gray;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    border: 20px solid gray;
+    border-radius: 50%;
+}
+
+/* -------------- END HEADER -------------- */ 
+
+
+
+/* -------------- SECTION -------------- */ 
+
+.section {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    border-bottom: 2px solid #000;
+    padding-bottom: 60px;
+}
+
+.section__side_bar {
+    width: 320px;
+    text-align: right;
+    margin-top: 70px;
+}
+
+.section__side_bar ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-size: 18px;
+    
+}
+
+.section__side_bar ul li a {
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+}
+
+.section__side_bar ul li a:hover {
+    text-decoration: underline;
+}
+
+.section__text {
+    width: 800px;   
+    margin: 0 20px 0 20px;
+    margin-top: 70px;
+
+}
+
+.section__news {
+    width: 50%;
+    position: relative;
+
+}
+
+.section__news .new_info {
+    margin-bottom: 20px;
+}
+
+.section__news h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.disigner_loh {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 30px;
+    background: gray;
+    border: 1px solid black;
+}
+
+.new_info .date {
+    font-weight: bold;
+    margin-top: 35px;
+}
+
+.new_info .text {
+    margin-top: -10px;
+}
+
+/* -------------- END SECTION -------------- */ 
+
+
+
+/* -------------- FOOTER -------------- */ 
+
+.footer {
+    position: relative;
+}
+
+.footer .disigner_loh {
+    width: 300px;
+}
+
+.footer .copyright_info {
+    position: absolute;
+    right: 170px;
+    top: -10px;
+}
+
+/* -------------- END FOOTER -------------- */ 
